@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contactus">
+        <h1 class="h-primary">Contact Us</h1>
+        <form action="#">
+            <div class="form-shape">
+                <label for="query">
+                    Type of query
+                </label>
+                <select name="myquery" id="query">
+                    <option value="sel" selected>
+                        select
+                    </option>
+                    <option value="ord">order related issue</option>
+                    <option value="site">site related issue</option>
+                    <option value="complaint">complaint related issue</option>
+                    <option value="others">others related issue</option>
+
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name">Name</label>
+                <input type="text " name="myname" id="name" placeholder="Enter your name">
+            </div><div class="form-shape">
+                <label for="email">Email</label>
+                <input type="email " name="myemail" id="email" placeholder="Enter your email">
+            </div>
+        <div class="form-shape">
+                <label for="pho">Phone Number</label>
+                <input type="phone " name="myphone" id="pho" placeholder="Enter your mobile number">
+            </div>
+          <div class="sr">
+
+              <input type="submit" value="Submit Now">
+              <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

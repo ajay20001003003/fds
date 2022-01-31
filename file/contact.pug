@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#{title}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    style
+       include ../static/style1.css
+       include ../static/style2.css
+</head>
+<body>
+    <nav class="navbar">
+        <div id="logo">
+        <img class="logo3" src="static/logo3.jpg" alt="Myonline.com">
+        </div>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/"> About Us</a></li>
+            <li><a href="/" target="-blank"> Services</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/sign">Sign in</a></li>
+            
+
+        </ul>
+    </nav>
+    <div id="contactus">
+        <h1 class="h-primary">Contact Us</h1>
+        <form action="/" id="Contact" method="post">
+            <div class="form-shape">
+                <label for="query">Type of query</label>
+                <select name="myquery" id="query">
+                    <option value="sel" selected>select</option>
+                    <option value="ord">order related issue</option>
+                    <option value="site">site related issue</option>
+                    <option value="complaint">complaint related issue</option>
+                    <option value="others">others related issue</option>
+                </select>
+            </div>
+            <div class="form-shape">
+                <label for="name"></label>
+                <input type="text " name="myname" id="name" placeholder="Enter your name">
+            </div><div class="form-shape">
+                <label for="email"></label>
+                <input type="email " name="myemail" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+                <label for="pho"></label>
+                <input type="phone " name="myphone" id="pho" placeholder="Enter your mobile number">
+            </div>
+            <div class="sr">
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+     <hr>
+
+    <footer>Copyright © 2020-2021 OnlineFoodShop.
+        All Rights are reserved</footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    style
+       include ../static/style1.css
+       include ../static/style2.css
+       
+</head>
+<body>
+    <nav class="navbar">
+        <div id="logo">
+        <img class="logo3" src="static/logo3.jpg" alt="Myonline.com">
+        </div>
+        <ul>
+            <li><a href="/index">Home</a></li>
+            <li><a href="/"> About Us</a></li>
+            <li><a href="/" target="-blank"> Services</a></li>
+            <li><a href="/contact">Contact us</a></li>
+            <li><a href="/sign">Sign in</a></li>
+            
+
+        </ul>
+    </nav>
+    <div class="signup">
+        <h1 class="h-primary">Sign up</h1>
+        <form action='/signup' method="post" id="signup">
+            <div class="form-shape">
+            <label for="name">Name</label>
+            <input type="text " name="myname" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-shape">
+            <label for="email">Email</label>
+            <input type="email " name="myemail" id="email" placeholder="Enter your email">
+            </div>
+            <div class="form-shape">
+            <label for="pho">Phone Number</label>
+            <input type="phone " name="myphone" id="pho" placeholder="Enter your mobile number">
+            </div><div class="form-shape">
+            <label for="birth">Date of birth</label>
+            <input type="date" name="mydob" id="birth" placeholder="Enter your date of birth">
+
+            </div>  
+            <div class="form-shape">
+            <label for="password">password</label>
+            <input type="password " name="password" id="password" placeholder="Enter a password">
+            </div>
+
+            <div class="sr">
+
+            <input type="submit" value="Submit Now" >
+            <input type="reset" value="Reset Now">
+            </div>
+        </form>
+    </div>
+     <hr>
+
+    <footer>Copyright © 2020-2021 OnlineFoodShop.
+        All Rights are reserved</footer>
+    
+</body>
+</html>
